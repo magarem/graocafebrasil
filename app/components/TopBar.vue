@@ -26,7 +26,7 @@
                 </div>
               </div>
             </div>
-            <NuxtLink v-else :to="resolveLink(item.link)" class="relative text-[18px] font-serif font-medium tracking-tight group/link whitespace-nowrap">
+            <NuxtLink v-else :to="resolveLink(item.link)" class="relative text-[22px] font-serif font-medium tracking-tight group/link whitespace-nowrap">
               {{ item.name }}
               <span class="absolute -bottom-1 left-0 w-0 h-[2px] transition-all duration-300 bg-black opacity-40 group-hover/link:w-full"></span>
             </NuxtLink>
